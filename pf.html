@@ -1,36 +1,123 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Personal Portfolio</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css">
+  <title>Personal Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+   body {
+   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+   color: white;
+   background-image: url("IMG_0162.JPG");
+	background-color: #FFFFFF;
+	margin: 0;
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+#header {
+    min-width: 1000px;
+    background-color: #660000;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+	text-transform: uppercase;
+	color: white;
+}
+
+#center {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#header a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+#header span {
+    padding: 0 38px;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+footer {
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+  </style>
 </head>
 <body>
 
-<div class="container"> 
 <div id="header">
             <a href="index.html">Main</a> <span>/</span>
             <a href="pf.html">Portfolio</a> <span>/</span>
             <a href="pr.html">Packages</a> <span>/</span>
             <a href="co.html">Contacts</a>
 </div>  
-<div class="header1">
-	<h1>Portfolio</h1>
-	<a href="https://500px.com/asiia" class="btn btn-primary">See more photos in the gallery</a>
+
+<div class="page-header">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>      
+  </div>
 </div>
-<div id="p-gallery">
-	<img src="1.JPG" tabindex="0" border="3"/>
-	<img src="2.JPG" tabindex="0" border="3"/>
-	<img src="3.JPG" tabindex="0" border="3"/>
-	<img src="4.JPG" tabindex="0" border="3"/>
-<div></div>
-	<img src="5.JPG" tabindex="0" border="3"/>
-	<img src="6.jpg" tabindex="0" border="3"/>
-	<img src="7.JPG" tabindex="0" border="3"/>
-	<img src="8.jpg" tabindex="0" border="3"/>
-<div></div>
-</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <a href="https://500px.com/asiia" class="btn btn-info btn-block"><i class="fa fa-500px" style="font-size:24px;"> GALLERY</i></a><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="1.JPG" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <img src="2.JPG" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <img src="3.JPG" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <img src="4.JPG" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center p-gallery">    
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="5.JPG" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <img src="6.jpg" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <img src="7.JPG" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <img src="8.jpg" class="img-thumbnail" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
   <div class="copyright">&copy;Asiia 2019</div>
-</div>
+</footer>
+
 </body>
 </html>
